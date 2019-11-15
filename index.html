@@ -1,9 +1,23 @@
-<html>
-    <head>
-        <title>juegos javaScript</title>
-    </head>
-    <body>
-        
-    </body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado</title>
 
+    <script src="juego.js"></script>
+	<link rel="StyleSheet" href="style.css" type="text/css">
+</head>
+<body>
+	<h1>Juego del Ahorcado</h1>
+	<div class="todo"><input id="letra" type="text" placeholder="Introduce una letra" maxlength="1"> <br><br>
+	<button id="comprobar" onclick="comprobar();">Comprobar letra</button><br><br>
+	<div id="resul"></div>
+	
+   <h2>Número de intentos</h2>
+  <div id="intentos"></div>
+    <h2>Historial de letras falladas</h2>
+  <div id="historial"></div></div>
+	<img src="ah.png" alt="ahorc">
+</body>
 </html>
