@@ -1,0 +1,26 @@
+h1{
+	text-align: center;
+	color: white;
+}
+
+body{
+	background-color: #00264d;
+}
+
+.todo{
+	text-align: center;
+}
+
+h2{
+	color: white;
+}
+
+div{
+	color: white;
+}
+
+img{
+	float: left;
+	width: 250px; 
+	height: 250px;
+}
